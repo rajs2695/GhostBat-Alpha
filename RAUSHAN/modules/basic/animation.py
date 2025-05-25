@@ -486,7 +486,7 @@ async def ngefuck(client: Client, message: Message):
 
 @Client.on_message(filters.command("hack", ".") & filters.me)
 async def hak(client: Client, message: Message):
-    await message.edit_text("Looking for WhatsApp databases in targeted person...")
+    await message.edit_text("Looking for Telegram databases in targeted person...")
     await asyncio.sleep(2)
     await message.edit_text(
         " User online: True\nTelegram access: True\nRead Storage: True "
