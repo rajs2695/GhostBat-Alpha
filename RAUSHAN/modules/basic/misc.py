@@ -22,13 +22,13 @@ else:
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](t.me/HeartBeat_Muzic)\n"
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](t.me/HeartBeat_Muzic)"
         f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭](t.me/HeartBeat_Offi)\n"
         f"└• **𝐌ᴀsᴛᴇʀ**: [𝐆𝖍𝖔𝖘𝖙𝐁𝖆𝖙](t.me/rajeshrakis)"        
     )
 
 @Client.on_message(
-    filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["alive", "hbop"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
     xx = await message.reply_text("⚡️")
@@ -62,7 +62,7 @@ async def repo(bot: Client, message: Message):
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/TEAMPURVI")
+    await message.edit("https://t.me/HeartBeat_Muzic")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
