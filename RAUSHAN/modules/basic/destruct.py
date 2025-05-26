@@ -20,13 +20,3 @@ async def self_media(client, message):
         print("Error: `{e}`")
         return
 
-
-          add_command_help(
-    "destruct",
-    [
-        [".what", "Save Self Destructive Pic"],
-        [".ham", "Sace Self Destroyed Pic"],
-        [".paken", "Sace Self Destroyed Pic"],
-        [".👀👀", "Sace Self Destroyed Pic"],
-    ],
-)
