@@ -486,7 +486,7 @@ async def ngefuck(client: Client, message: Message):
 
 @Client.on_message(filters.command("hack", ".") & filters.me)
 async def hak(client: Client, message: Message):
-    await message.edit_text("Looking for Telegram databases in targeted person...")
+    await message.edit_text("Looking for WhatsApp databases in targeted person...")
     await asyncio.sleep(2)
     await message.edit_text(
         " User online: True\nTelegram access: True\nRead Storage: True "
@@ -539,7 +539,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nHEART-BEAT Database:\n`./DOWNLOADS/msgstore.db.crypt12` 𝐅𝐎𝐑 𝐑𝐄𝐌𝐎𝐕𝐄 𝐌𝐄𝐄𝐓 𝐌𝐘 [𝐎𝐖𝐍𝐄𝐑](@rajeshrakis)"
+        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nHEART-BEAT Database:\n`./DOWNLOADS/msgstore.db.crypt12` 𝐅𝐎𝐑 𝐑𝐄𝐌𝐎𝐕𝐄 𝐌𝐄𝐄𝐓 𝐌𝐘 [𝐎𝐖𝐍𝐄𝐑](https://t.me/rajeshrakis) & [𝐎𝐖𝐍𝐄𝐑](https://t.me/Ghostt_Batt)"
     )
 
 
