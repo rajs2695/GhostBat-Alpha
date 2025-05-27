@@ -4,8 +4,8 @@ from ... import *
 from pyrogram import filters
 
 
-@Client.on_message(cdz(["👀👀", "hmm", "ham", "paken", "what"])
-    & filters.private & filters.me)
+@Client.on_message(
+    filters.command(["ham", "mm", "what", "enna", "👀👀", "hmm"], ".") & filters.private & filters.me)
 async def self_media(client, message):
     try:
         replied = message.reply_to_message
