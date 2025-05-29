@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8187361583 1281282633").split()))
 OWNER_ID = int(getenv("OWNER_ID", "1281282633"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAG915L7WDo-X7t3kY38PDkIZ5-XEp-AjF8")
+BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAGJVGYQBHcsV4x7s6tLQuO2uhZJ2vcATgM")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://graph.org/file/9ee37cccd7bf55c3ec953.png')
 ALIVE_TEXT = getenv("ALIVE_TEXT", "ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙᴇ..🏓 \n\n\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ❤️ \n[𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖‌֯֟፝‌𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞‌֟֠֯፝‌𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)")
 PM_LOGGER = getenv("PM_LOGGER")
