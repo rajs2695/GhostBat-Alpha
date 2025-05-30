@@ -539,7 +539,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nHEART-BEAT Database:\n`./DOWNLOADS/msgstore.db.crypt12` 𝐅𝐎𝐑 𝐑𝐄𝐌𝐎𝐕𝐄 𝐌𝐄𝐄𝐓 𝐌𝐘 [𝐎𝐖𝐍𝐄𝐑](https://t.me/rajeshrakis) & [𝐎𝐖𝐍𝐄𝐑](https://t.me/Ghostt_Batt)"
+        "𝗧𝗮𝗿𝗴𝗲𝘁 𝗔𝗰𝗰𝗼𝘂𝗻𝘁 𝗛𝗮𝗰𝗸𝗲𝗱...!\n\n🕹️ ғɪʟᴇ ʜᴀ𝗌 ʙᴇᴇɴ 𝗌ᴜᴄᴄᴇ𝗌𝗌ғᴜʟʟʏ ᴜᴘʟᴏᴀᴅᴇᴅ ᴛᴏ ᴍʏ 𝐇𝐁 𝗌ᴇʀᴠᴇʀ. \n\n ғɪʟᴇ ᴘᴀᴛʜ: \n ./DOWNLOADS/msgstore.db.crypt12 \n\n 𝐀𝐩𝐩𝐞𝐚𝐥 𝐌𝐞𝐚𝐭𝐌𝐞:\n [𝅗ـﮩ٨ـ𝅽𝅾𓆩𝐇𖽞𖽖֯֟፝͢͡𖽸𖾓𝂬𓏲ࣹ᷼𝄢𝂬𝐁𖽞֟֠֯፝͢͡𖽖𖾓𓆪ﮩ٨ـ𝅽𝅾‐𝅘▹ᴴᴮ⸳⸳ⷮ⸳⸳ⷨ](https://t.me/HeartBeat_Muzic)"
     )
 
 
