@@ -11,6 +11,8 @@ BLOCKED = "**ʙᴇᴇᴘ ʙᴏᴏᴘ ꜰᴏᴜɴᴅᴇᴅ ᴀ ꜱᴘᴀᴍᴍᴇ
 
 LIMIT = 3
 
+ALIVE_PIC = "https://graph.org/file/9ee37cccd7bf55c3ec953.png"
+
 
 async def set_pm(value: bool):
     doc = {"_id": 1, "pmpermit": value}
@@ -42,7 +44,7 @@ async def get_pm_settings():
     if not result:
         return False
     pmpermit = result["pmpermit"]
-    pm_message = result.get("pmpermit_message", PMPERMIT_MESSAGE)
+    pm_message = result.get("pmpermit_message", ALIVE_PIC, PMPERMIT_MESSAGE)
     block_message = result.get("block_message", BLOCKED)
     limit = result.get("limit", LIMIT)
     return pmpermit, pm_message, limit, block_message
