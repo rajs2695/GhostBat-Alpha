@@ -17,7 +17,7 @@ def get_arg(message: Message):
         return ""
     return " ".join(split[1:])
 
-@Client.on_message(filters.command("tag", ".") & filters.me)
+@Client.on_message(filters.command("tagall", ".") & filters.me)
 async def mentionall(client: Client, message: Message):
     chat_id = message.chat.id
     direp = message.reply_to_message
